@@ -1,4 +1,4 @@
-FROM openjdk:1.8
+FROM openjdk:17
 WORKDIR /webapp
 COPY package.jar .
 EXPOSE 8080
