@@ -1,5 +1,5 @@
 FROM openjdk:17
 WORKDIR /webapp
-COPY target/maven-web-application.jar webapp.jar
+COPY . .
 EXPOSE 8080
 CMD ["java","-jar" ,"webapp.jar"]
